@@ -12,4 +12,4 @@ except:
     print("ошибка")
 
 print("В процентах: "+'{:.2%}'.format(number))
-print("В валюте: "+ '{:.2f}'.format(number)+"$") #todo: доделать
+print("В валюте: "+ '{:,.2f}'.format(number)+"$")
